@@ -57,7 +57,7 @@ const Search = () => {
       <div className="row d-flex justify-content-center">
         {getdata.data.items && getdata.data.items.length > 0 ? (
           getdata.data.items.map((item, index) => (
-            <div className="col-md-3 p-2" key={index}>
+            <div className="col-md-3 col-6 p-2" key={index}>
               <ComicCard item={item} index={item._id} />
             </div>
           ))

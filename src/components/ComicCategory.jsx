@@ -57,7 +57,7 @@ const ComicCategory = () => {
       <div className="row d-flex justify-content-center">
         {getData.data.items && getData.data.items.length > 0 ? (
           getData.data.items.map((item, index) => (
-            <div className="col-md-3 p-2" key={index}>
+            <div className="col-md-3 col-6 p-2" key={index}>
               <ComicCard item={item} index={item._id} />
             </div>
           ))
