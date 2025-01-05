@@ -1,0 +1,46 @@
+.dropdown-menu {
+    min-width: 700px !important;
+}
+
+#navbarScrollingDropdown {
+    width: fit-content;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+    margin: .1em;
+}
+.nav-link:hover{
+    border-bottom: 2px solid;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+.nav-link.active {
+    border-bottom: 2px solid;
+}
+
+.comic-logo {
+    font-weight: 700;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-button {
+    border-radius: 15px;
+    height: 2.5em;
+    width: 2.5em;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.search-button .icon {
+    color: white;
+    font-size: 1.5em;
+}
+.search-button:hover {
+
+}
+
+

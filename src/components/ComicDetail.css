@@ -1,0 +1,39 @@
+.chapter {
+    background: #e35254;
+    margin-bottom: .5em;
+    border-left: 10px solid #911a1c;
+    font-family: "Oswald", sans-serif;
+}
+
+.chapter:hover {
+    background-color: #911a1c;
+    border-left: 10px solid #e35254;
+    color: #fff;
+    cursor: pointer;
+}
+.text-category {
+    text-decoration: none;
+}
+.btn-load-more, .btn-hide {
+    color: white;
+    width: 10em;
+    background: #911a1c;
+    margin-bottom: 0.5em;
+}
+
+.btn-load-more:hover, .btn-hide:hover {
+    background: #cc2528;
+}
+
+.btn-read {
+    color: white;
+    background: #e35254;
+    border: 3px solid #911a1c;
+    width: 100%;
+    padding: .5em;
+}
+.btn-read:hover {
+    color: white;
+    background: #911a1c;
+    border: 3px solid #e35254;
+}

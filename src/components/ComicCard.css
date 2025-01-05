@@ -1,0 +1,92 @@
+.comic-card {
+    background: #0b0c2a;
+    color: #fff;
+}
+
+.comic-card:hover {
+    cursor: pointer;
+    border: 5px solid red;
+    transition: all;
+    transition-duration: .1s;
+}
+
+.card img {
+    height: 370px;
+}
+
+.text-category {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.text-category:hover {
+    background-color: #070707 !important;
+    color: #fff !important;
+}
+
+.comic-card-title {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: -webkit-box;          /* Thiết lập kiểu hiển thị là box (dạng flexbox trên Webkit) */
+    -webkit-box-orient: vertical;  /* Thiết lập chiều dọc cho box */
+    overflow: hidden;              /* Ẩn phần nội dung vượt quá */
+    -webkit-line-clamp: 3;         /* Giới hạn hiển thị chỉ 3 dòng */
+    line-height: 1.2;              /* Điều chỉnh chiều cao dòng (tùy chọn) */
+    max-height: 4.5em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.comic-card-title:hover {
+    cursor: pointer;
+    color: #535bf2;
+}
+
+.comic-status {
+    font-size: 13px;
+    color: #ffffff;
+    background: #e53637;
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 4px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: "Mulish", sans-serif;
+}
+
+@media only screen and (max-width: 660px) {
+    .go-top {
+        position: fixed;
+        bottom: 40px;
+        right: 10px;
+        height: 2em;
+        width: 2em;
+    }
+
+    .page-link{
+        height: 2em;
+        width: 2em;
+    }
+
+    .card img {
+        height: 12em;
+        border: 1px solid #070707;
+    }
+
+    .comic-card-title {
+        font-size: .7em;
+    }
+
+    .comic-status {
+        font-size: .5em;
+    }
+
+    .comic-chapter, .comic-date {
+        font-size: .6em;
+    }
+    .text-category {
+        font-size: .5em;
+    }
+}
